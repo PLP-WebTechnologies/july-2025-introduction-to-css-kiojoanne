@@ -1,0 +1,66 @@
+styles.css
+
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header Styling */
+header {
+    background-color: #2d3e50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Section Styling */
+section {
+    background-color: white;
+    margin: 20px;
+    padding: 15px;
+    border: 2px solid #ccc; /* Box model: border */
+    border-radius: 5px;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #999; /* Box model: border */
+    padding: 8px; /* Box model: padding */
+    text-align: left;
+}
+
+/* Image Styling */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto; /* Box model: margin */
+}
+
+/* Footer Styling */
+footer {
+    background-color: #2d3e50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Example of ID selector */
+#highlight {
+    background-color: yellow;
+}
+
+/* Example of Class selector */
+.box {
+    border: 1px solid #000;
+    padding: 10px;
+    margin: 10px;
+}
+
